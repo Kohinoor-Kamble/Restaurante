@@ -1,0 +1,316 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* background-color: black; */
+    /* color: white; */
+}
+
+
+.section{
+    height: 60px;
+    width:100%;
+    background-color: black;
+    display: inline-block;
+    font-size: 0px;
+
+}
+.header{
+    height: 60px;
+    width: 100%;
+    /* background-color: yellow; */
+    /* margin-left: 10%; */
+    display: inline-block;
+    
+}
+.logo{
+    height: 60px;
+    width: 15%;
+    text-align: center; 
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    line-height: 60px;
+    /* background-color: cyan; */
+    vertical-align: top;
+    color: white;
+
+}
+.navigation{
+    height: 60px;
+    width: 30%;
+    /* background-color: green; */
+    display: inline-block;
+    margin-left: 50%;
+    cursor: pointer;
+}
+.nav{
+    font-size: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+
+}
+.nav-link{
+    height: 60px ;
+    width:25%;
+    /* background-color: gainsboro; */
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+
+}
+.banner{
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    display: inline-block;
+
+}
+.banner-img{
+    width: 100%;
+    margin-top: -150px;
+    
+
+}
+.cards{
+    /* height: 500px; */
+    margin-top: 50px;
+    width: 100%;
+    /* background-color: white; */
+    overflow: hidden;
+    border-radius: 10px;
+}
+.cards_container{
+    width: 80%;
+    /* height: 400px; */
+    /* background-color: cyan; */
+    margin-left: 10%;
+    /* margin-top: 50px; */
+    font-size: 0;
+    overflow: hidden;
+    
+    
+
+}
+.dishes{
+    height:400px;
+    width:24%;
+    /* background-color: blue; */
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+.dish_image{
+    height: 200px;
+    width:100%;
+    overflow: hidden;
+
+
+}
+h1{
+    font-size: 25px;
+    font-weight:bold;
+    padding:10px;
+}
+.text{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    background-color: white ;
+    
+}
+.span{
+    font-size: 20px;
+    font-weight:bold;
+}
+.btn{
+    height: 50px;
+    width:100px;
+    background-color: blue;
+    border:none;
+    padding:5px;
+    font-size: 16px;
+    margin-left: 20px;
+    color:white;
+    justify-content: center;
+    border-radius: 10px;
+}
+.half_img{
+    height:500px;
+    width: 100%;
+    background-color: red;
+    margin-top: 50px;
+    overflow: hidden;
+    
+
+
+}
+.half{
+    height:500px;
+    width: 50%;
+    background-color: green;
+    overflow: hidden;
+
+}
+.half_image{
+    width:100%;
+    overflow: hidden;
+    display:inline-block; 
+
+
+}
+.para{
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+.t1{
+    width: 100%;
+    height: 500px;
+    /* background-color: brown; */
+    /* display: inline-block; */
+    margin-top: 50px;
+    overflow: hidden;
+}
+.t2{
+    width: 50%;
+    background-color: black;
+    height: 500px;
+    display: inline-block;
+    
+
+}
+.t3{
+    width: 50%;
+    /* background-color: beige; */
+    height: 500px; 
+    display: inline-block;
+    vertical-align: top;
+}
+.t2_image{
+    width:100%;
+    overflow:hidden;
+}
+.para{
+    font-size: 16px;
+    color:black;
+    padding: 10px 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+    
+    text-overflow: ellipsis;
+
+}
+.gallery{
+    height: 500px;
+    width:100%;
+    /* background-color: red; */
+    margin-top: 50px;
+}
+.gallery_block{
+    height: 250px;
+    width:100%;
+    /* background-color:yellow; */
+}
+.gallery_image{
+    height:250px;
+    width:25%;
+    /* background-color: brown; */
+    display: inline-block;
+    overflow: hidden;
+}
+.imgein{
+    height: 250px;
+    width:100%;
+    overflow: hidden;
+
+}
+.form_container{
+    /* height: 500px; */
+    width:100%;
+    background-color:black;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom:50px;
+
+
+}
+.mid_container{
+    width: 40%;
+    height: 420px;
+    background-color: cyan;
+    margin-left: 30%;
+    padding:30px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.form_title{
+    /* margin-top: 10px; */
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+.forminput{
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 16px;
+
+}
+.footer{
+    /* height:400px; */
+    width:100%;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+}
+.footer_container{
+    width:80%;
+    /* height:400px; */
+    /* background-color: yellow; */
+    margin-left:10%;
+    font-size: 0px;
+}
+.footer_item{
+    width:32%;
+    height: 300px;
+    /* background-color: green; */
+    display: inline-block;
+    margin-left: 1%;
+    vertical-align: top;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+
+}
+.footer_title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom:10px;
+    color:white;
+}
+.footer_para{
+    font-size: 17px;
+
+}
+.addr_title{
+    font-size:25px;
+    margin-bottom: 15px;
+}
+.addr_para{
+    font-size:17px;
+    margin-bottom: 10px;
+}
+.google_map{
+    height: 200px;
+    width:100%;
+}
